@@ -118,13 +118,13 @@ Engineered customer value segments based on credit limits and compared churn rat
 ## Dashboard Preview
 
 ### Executive Churn Dashboard
-![Executive Dashboard](asset/executive-dashboard.jpeg)
+![Executive Dashboard](asset/dashboard-visuals/executive-dashboard.jpeg)
 
 ### Customer Risk Segmentation
-![Risk Segmentation](asset/risk-segmentation.jpeg)
+![Risk Segmentation](asset/dashboard-visuals/risk-segmentation.jpeg)
 
 ### Customer Demographics & Behavior
-**![Customer Demographics](asset/customer-demographics.jpeg)**
+**![Customer Demographics](asset/dashboard-visuals/customer-demographics.jpeg)**
 ---
 
 ## Skills Demonstrated
