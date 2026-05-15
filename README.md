@@ -67,7 +67,54 @@ Includes:
 - High inactivity and repeated contact behavior indicate elevated churn risk
 - Customers aged 40–49 show the highest churn concentration
 - Lower-income segments account for the largest attrition pool
+## Project Visualizations
 
+### 1. Dataset Overview & Data Validation
+Initial inspection of the dataset, including previewing customer records and checking for missing values before analysis.
+
+![Dataset Overview](asset/python-analysis/01-dataset-overview-data-validation.png)
+
+---
+
+### 2. Customer Churn Distribution
+Overall churn distribution showing the percentage of attrited vs existing customers.
+
+![Customer Churn Distribution](asset/python-analysis/02-customer-churn-distribution.png)
+
+---
+
+### 3. Churn Analysis by Gender
+Comparison of churn behaviour across male and female customer segments.
+
+![Churn by Gender](asset/python-analysis/03-churn-analysis-by-gender.png)
+
+---
+
+### 4. Churn Analysis by Income Segment
+Analysis of churn patterns across different income categories to identify high-risk customer groups.
+
+![Churn by Income Segment](asset/python-analysis/04-churn-analysis-by-income-segment.png)
+
+---
+
+### 5. Engagement Risk Segmentation Analysis
+Created a custom engagement risk model based on customer inactivity behaviour to classify churn likelihood.
+
+![Engagement Risk Segmentation](asset/python-analysis/05-engagement-risk-segmentation-analysis.png)
+
+---
+
+### 6. Correlation Analysis Heatmap
+Correlation analysis between numerical customer attributes to identify behavioural relationships.
+
+![Correlation Heatmap](asset/python-analysis/06-correlation-analysis-heatmap.png)
+
+---
+
+### 7. Customer Value Segmentation Churn Analysis
+Engineered customer value segments based on credit limits and compared churn rates across customer tiers.
+
+![Customer Value Segmentation](asset/python-analysis/07-customer-value-segmentation-churn-analysis.png)
 ## Dashboard Preview
 
 ### Executive Churn Dashboard
