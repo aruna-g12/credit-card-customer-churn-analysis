@@ -119,6 +119,10 @@ Dataset includes customer information such as:
 - Monitor early warning churn indicators proactively
 
 ---
+## Notebook Access
+
+- [View Jupyter Notebook](./credit_card_customer_analysis.ipynb)
+- [Open in Google Colab](https://colab.research.google.com/gist/aruna-g12/c45f4c6ab32afd3e77ee323fb00cc0cc/credit_card_customer_analysis.ipynb)
 
 ## Project Structure
 ```bash
