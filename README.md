@@ -1,137 +1,136 @@
-# Credit Card Customer Churn Analysis | Power BI
+# Credit Card Customer Churn Analysis
 
 ## Project Overview
-This project analyzes customer churn behavior in a credit card customer dataset using Power BI, focusing on retention drivers, behavioral risk segmentation, and demographic churn analysis.
+This project analyzes customer churn behavior in a credit card customer dataset to identify the factors influencing attrition and generate actionable business insights.
 
-The dashboard provides executive-level business insights to identify churn patterns and retention opportunities.
-
----
+The analysis focuses on customer demographics, spending behaviour, engagement patterns, credit utilization, and segmentation-based churn risk.
 
 ## Business Problem
-Customer churn directly impacts profitability in financial services.
+Customer churn directly impacts profitability for financial institutions.
 
-This analysis helps answer:
-- Which customers are most likely to churn?
-- What behavioral patterns indicate churn risk?
-- Which demographics show highest attrition?
-- Where should retention efforts focus?
-
----
-
-## Dashboard Pages
-
-### Executive Churn Dashboard
-Includes:
-- Total customer count
-- Churn rate
-- Average credit limit
-- Average transaction amount
-- Average utilization
-- Attrition by gender, card tier, income category
-- Behavioral churn risk map
+The objective of this project is to:
+- Identify key drivers of customer attrition
+- Segment customers based on churn risk
+- Analyze demographic and behavioural patterns
+- Generate business recommendations for retention strategies
 
 ---
 
-### Customer Risk Segmentation
-Includes:
-- High / Medium / Low risk customer classification
-- Root cause comparison between existing vs attrited customers
-- Risk distribution analysis
-- Transaction behavior by churn risk segment
+## Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Google Colab
+- GitHub
 
 ---
 
-### Customer Demographics & Behavior
-Includes:
-- Attrition by age group
-- Attrition by education level
-- Attrition by marital status
-- Income segment churn analysis
-- Dynamic KPI insight cards
+## Dataset
+Dataset includes customer information such as:
+
+- Age
+- Gender
+- Income Category
+- Card Category
+- Credit Limit
+- Transaction Amount
+- Transaction Count
+- Months Inactive
+- Credit Utilization Ratio
+- Customer Attrition Status
 
 ---
 
-## Tools Used
-- Power BI
-- DAX
-- Data Visualization
-- Business Analytics
-- Customer Segmentation
-- KPI Dashboard Design
+## Key Analysis Performed
+### Exploratory Data Analysis
+- Dataset validation and structure inspection
+- Missing value checks
+- Data type analysis
+
+### Churn Behaviour Analysis
+- Overall churn distribution
+- Gender-based churn comparison
+- Income-based churn analysis
+- Card category churn behaviour
+
+### Customer Segmentation
+- Credit limit based customer segmentation
+- Risk segmentation using inactivity behaviour
+- High-value vs low-value customer churn analysis
+
+### Correlation Analysis
+- Numerical feature correlation analysis
+- Behavioural trend identification
+
+---
+
+## Dashboard Snapshots
+
+### Executive Dashboard
+![Executive Dashboard](asset/dashboard-visuals/executive-dashboard.jpeg)
+
+### Customer Demographics Dashboard
+![Customer Demographics](asset/dashboard-visuals/customer-demographics.jpeg)
+
+### Risk Segmentation Dashboard
+![Risk Segmentation](asset/dashboard-visuals/risk-segmentation.jpeg)
+
+---
+
+## Python Analysis Visualizations
+
+### 1. Dataset Overview & Data Validation
+![Dataset Overview](asset/python-analysis/01-dataset-overview-data-validation.png)
+
+### 2. Customer Churn Distribution
+![Customer Churn Distribution](asset/python-analysis/02-customer-churn-distribution.png)
+
+### 3. Churn Analysis by Gender
+![Gender Churn](asset/python-analysis/03-churn-analysis-by-gender.png)
+
+### 4. Churn Analysis by Income Segment
+![Income Churn](asset/python-analysis/04-churn-analysis-by-income-segment.png)
+
+### 5. Engagement Risk Segmentation
+![Risk Segmentation](asset/python-analysis/05-engagement-risk-segmentation-analysis.png)
+
+### 6. Correlation Analysis Heatmap
+![Correlation Heatmap](asset/python-analysis/06-correlation-analysis-heatmap.png)
+
+### 7. Customer Value Segmentation Churn Analysis
+![Customer Value Analysis](asset/python-analysis/07-customer-value-segmentation-churn-analysis.png)
 
 ---
 
 ## Key Insights
-- Customer churn rate is approximately 16%
-- Lower transaction activity strongly correlates with attrition
-- High inactivity and repeated contact behavior indicate elevated churn risk
-- Customers aged 40–49 show the highest churn concentration
-- Lower-income segments account for the largest attrition pool
-## Project Visualizations
-
-### 1. Dataset Overview & Data Validation
-Initial inspection of the dataset, including previewing customer records and checking for missing values before analysis.
-
-![Dataset Overview](asset/python-analysis/01-dataset-overview-data-validation.png)
+- Overall customer churn rate is approximately 16%
+- Low-value customers showed the highest churn rate
+- Higher inactivity strongly correlates with attrition
+- Existing customers show significantly higher transaction activity
+- Income and engagement behaviour are strong churn indicators
 
 ---
 
-### 2. Customer Churn Distribution
-Overall churn distribution showing the percentage of attrited vs existing customers.
-
-![Customer Churn Distribution](asset/python-analysis/02-customer-churn-distribution.png)
-
----
-
-### 3. Churn Analysis by Gender
-Comparison of churn behaviour across male and female customer segments.
-
-![Churn by Gender](asset/python-analysis/03-churn-analysis-by-gender.png)
+## Business Recommendations
+- Build retention campaigns for low-value churn-risk customers
+- Introduce engagement strategies for inactive customers
+- Reward high-value loyal customers
+- Monitor early warning churn indicators proactively
 
 ---
 
-### 4. Churn Analysis by Income Segment
-Analysis of churn patterns across different income categories to identify high-risk customer groups.
+## Project Structure
+```bash
+asset/
+├── dashboard-visuals/
+├── python-analysis/
 
-![Churn by Income Segment](asset/python-analysis/04-churn-analysis-by-income-segment.png)
-
----
-
-### 5. Engagement Risk Segmentation Analysis
-Created a custom engagement risk model based on customer inactivity behaviour to classify churn likelihood.
-
-![Engagement Risk Segmentation](asset/python-analysis/05-engagement-risk-segmentation-analysis.png)
+README.md
+credit_card_customer_analysis.ipynb
+```
 
 ---
 
-### 6. Correlation Analysis Heatmap
-Correlation analysis between numerical customer attributes to identify behavioural relationships.
-
-![Correlation Heatmap](asset/python-analysis/06-correlation-analysis-heatmap.png)
-
----
-
-### 7. Customer Value Segmentation Churn Analysis
-Engineered customer value segments based on credit limits and compared churn rates across customer tiers.
-
-![Customer Value Segmentation](asset/python-analysis/07-customer-value-segmentation-churn-analysis.png)
-## Dashboard Preview
-
-### Executive Churn Dashboard
-![Executive Dashboard](asset/dashboard-visuals/executive-dashboard.jpeg)
-
-### Customer Risk Segmentation
-![Risk Segmentation](asset/dashboard-visuals/risk-segmentation.jpeg)
-
-### Customer Demographics & Behavior
-**![Customer Demographics](asset/dashboard-visuals/customer-demographics.jpeg)**
----
-
-## Skills Demonstrated
-- Dashboard Development
-- DAX Measure Creation
-- Customer Churn Analysis
-- Risk Modeling
-- Business Storytelling
-- Interactive Reporting
-- Data-Driven Decision Support
+## Author
+**Aruna Garnepudi**
