@@ -68,6 +68,16 @@ Includes:
 - Customers aged 40–49 show the highest churn concentration
 - Lower-income segments account for the largest attrition pool
 
+## Dashboard Preview
+
+### Executive Churn Dashboard
+![Executive Dashboard](assets/executive-dashboard.png)
+
+### Customer Risk Segmentation
+![Risk Segmentation](assets/risk-segmentation.png)
+
+### Customer Demographics & Behavior
+![Customer Demographics](assets/customer-demographics.png)
 ---
 
 ## Skills Demonstrated
