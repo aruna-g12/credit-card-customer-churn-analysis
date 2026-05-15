@@ -71,13 +71,13 @@ Includes:
 ## Dashboard Preview
 
 ### Executive Churn Dashboard
-![Executive Dashboard](assets/executive-dashboard.png)
+![Executive Dashboard](asset/executive-dashboard.png)
 
 ### Customer Risk Segmentation
-![Risk Segmentation](assets/risk-segmentation.png)
+![Risk Segmentation](asset/risk-segmentation.png)
 
 ### Customer Demographics & Behavior
-![Customer Demographics](assets/customer-demographics.png)
+![Customer Demographics](asset/customer-demographics.png)
 ---
 
 ## Skills Demonstrated
